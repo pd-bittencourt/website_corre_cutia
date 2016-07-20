@@ -1,11 +1,14 @@
 # For development
 dist
 .tmp
-bower_components
 test/bower_components
 
 
 # Created by https://www.gitignore.io/api/bower,git,images,node,osx
+
+### Sass ###
+.sass-cache/
+*.css.map
 
 ### Bower ###
 bower_components
