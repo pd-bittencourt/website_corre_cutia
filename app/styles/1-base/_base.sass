@@ -1,3 +1,10 @@
+/*  Box Sizing hack
+  ------------------------------------  */
+html
+  box-sizing: border-box
+*, *:before, *:after 
+  box-sizing: border-box
+
 /*  Typography presets
   ------------------------------------  */
 
@@ -85,6 +92,8 @@ body
 html
   font-size: 62.5%
 body
+  margin: 0
+  padding: 0
   background: $cBody
   font: 1.6rem/1.6 $tRounded
   color: $cTexto
