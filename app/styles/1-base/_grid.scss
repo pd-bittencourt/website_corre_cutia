@@ -36,7 +36,10 @@ $gutter: 1.5rem;
   margin-right: -$gutter; 
   display: flex;
   flex-flow: row wrap;
-
+  
+  &.direction-col {
+    flex-direction: column;
+  }
   // &:before, .row::after {
   //   content: ' ';
   //   display: table;
@@ -87,7 +90,7 @@ $gutter: 1.5rem;
   }
 
   .sm-3 {
-    flex: 0 0 33.334%;
+    flex: 0 0 33.333%;
     max-width: 33.334%;
   }
 
