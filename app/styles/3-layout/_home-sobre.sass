@@ -5,5 +5,13 @@
   padding-top: 20px //para ver o parallax func RETIRAR
 
 .home-sobre
-  background: $c-laranja
+  // background: $c-laranja
   text-align: center
+  // height: 20vh
+
+  div img
+  	max-height: 10vh
+  	transition: transform .3s ease-in-out
+
+  	&:hover
+  		transform: translateY(-5px)

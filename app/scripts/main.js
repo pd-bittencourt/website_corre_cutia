@@ -19,8 +19,8 @@ $(function() {
     /* avoid unnecessary call to jQuery function */
     if (winScroll <= limit) {
       div.css({ 'opacity' :  (0 + winScroll/limit) });
-      $('.hero-logo').css({ 'top' : (40 + winScroll/7 + '%') });
-      $('.hero-btn-play').css({ 'top' : (70 + winScroll/8 + '%') });
+      // $('.hero-logo').css({ 'top' : (40 + winScroll/7 + '%') });
+      // $('.hero-btn-play').css({ 'top' : (70 + winScroll/8 + '%') });
     }
   });
 });
