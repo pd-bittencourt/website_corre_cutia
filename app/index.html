@@ -25,7 +25,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -34,14 +34,14 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
+
     <!-- Test template -->
     <header id="main-nav" role="navigation">
       <div id="toggle-menu">
         <button class="nav-btn">Navigation</button>
       </div>
       <div id="brand">
-        <a href="#0" class="cutia-logo">
+        <a href="index.html" class="cutia-logo">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299.38 121.68">
           <defs>
             <style>.cls-1{fill:#faba51;}.cls-2{fill:#e48b53;}.cls-3{fill:#e3874f;}.cls-4{fill:#d3793f;}</style>
@@ -76,7 +76,7 @@
     <div id="nav-container">
       <ul class="row justify-center">
         <li class="col sm-5">
-          <a href="#1"><img class="btn-cutia" src="../images/logo-cc_cutia.svg"><span>A Cutia</span></a>
+          <a href="test.html"><img class="btn-cutia" src="../images/logo-cc_cutia.svg"><span>A Cutia</span></a>
         </li>
         <li class="col sm-5">
           <a href="#1"><img src="../images/icon-musica.svg"><span>Na sua Festa</span></a>
@@ -96,19 +96,21 @@
       <div class="parallax-transparent"></div>
       <div class="hero-gradient"></div>
 
-      <img class="hero-logo" src="/images/logo-cc_lettering.png" alt="Corre Cutia - encontros criativos">
-      <div class="hero-btn-play">
-        <a class="btn-play" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.79 64.05"><title>play</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M54.29,36.35,7.5,63.37A5,5,0,0,1,0,59V5A5,5,0,0,1,7.5.68l46.79,27A5,5,0,0,1,54.29,36.35Z"/></g></g></svg>
-        </a>
+      <div class="hero-logo-wrapper container-wide">
+        <img class="hero-logo" src="/images/logo-cc_lettering.png" alt="Corre Cutia - encontros criativos">
+        <div class="hero-btn-play">
+          <a class="btn-play" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.79 64.05"><title>play</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M54.29,36.35,7.5,63.37A5,5,0,0,1,0,59V5A5,5,0,0,1,7.5.68l46.79,27A5,5,0,0,1,54.29,36.35Z"/></g></g></svg>
+          </a>
+        </div>
       </div>
-      <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/EGdrHQTp_Lg" frameborder="0" allowfullscreen></iframe>
+      <!-- <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/EGdrHQTp_Lg" frameborder="0" allowfullscreen></iframe> -->
     </section>
-
-    <!-- Home sobre -->
+    <!-- Home main -->
     <div class="home-main">
+      <!-- Home sobre -->
       <section class="home-sobre container-wide">
-        <div class="row justify-center">
+        <div class="row justify-center icons-sobre">
           <div class="sm-5 force-3">
             <img src="../images/icon-musica.svg" alt="">
             <p>M&uacute;sica</p>
@@ -130,20 +132,39 @@
             <p>Teatro</p>
           </div>
         </div>
-      </section> <!-- End home sobre --> 
+      </section> <!-- End home sobre -->
 
       <!-- Home sobre-texto -->
       <section class="home-sobre_texto container-narrow text-center">
         <p>Listicle distillery swag tumblr yuccie. Hoodie ramps fixie, keytar neutra blue bottle put a bird on it. Flannel bespoke fingerstache, freegan vice blog tilde. Whatever cred 90's raw denim. Art party selfies fixie fashion axe beard, gentrify XOXO. Leard cred plaid biodiesel man bun gochujang kale chips.</p>
-        <a class="btn btn-lg btn-info" href="#" role="button">Nossa Hist&oacute;ria</a>
+        <a class="btn btn-lg" href="#" role="button">Nossa Hist&oacute;ria</a>
       </section>
-      
+
+
+      <section class="home-servicos">
+        <div class="container-narrow text-center">
+          <h2>Encontros Criativos</h2>
+          <p>Confira nossas atividades e construa nossa festa junto com a gente!</p>
+        </div>
+        <div class="row">
+          <div class="servico-festa text-center sm-2">
+            <h3>Cutia na sua festa</h3>
+            <img src="" alt="">
+            <p>Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          </div>
+          <div class="servico-evento text-center sm-2">
+            <h3>Cutia no seu evento</h3>
+            <img src="" alt="">
+            <p>Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          </div>
+        </div>
+      </section>
     </div><!-- End home main -->
-    
+
     <section class="before-footer"></section>
-    
+
     <section class="divider-footer"><div></div></section>
-    <footer>
+    <footer class="main-footer">
       <div class="container-wide">
         <div><p>Corre Cutia</p></div>
         <div><p>Corre Cutia</p></div>
@@ -166,7 +187,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
