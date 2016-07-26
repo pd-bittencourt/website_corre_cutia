@@ -2,15 +2,21 @@
   padding: 1em 2em
   margin: 1em
   border-radius: 2em
-  border: 2px solid $c-amarelo
-  background: $c-branco
+  border: 1px solid $c-roxoClaro
+  background: $c-roxoClaro
   text-transform: uppercase
   font-weight: 600
-  color: $cTexto
+  color: $c-laranja
+  // box-shadow: 0 0px 10px rgba($c-roxoClaro, .3)
   transition: all .3s ease-in-out
 
 
   &:hover
-    background: $c-roxoClaro
+    background: $c-branco
     border: 1px solid $c-roxoClaro
-    color: $c-branco
+    color: $c-roxoClaro
+    // box-shadow: 0 6px 25px rgba($c-roxoClaro, .5)
+
+  &.btn-small
+    font-size: 1.4rem
+    padding: .5em 1.5em

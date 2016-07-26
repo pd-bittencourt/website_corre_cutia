@@ -2,7 +2,7 @@ $(function() {
   var menuBtn = $('.nav-btn');
   var mobileNav = $('#nav-container');
 
-  menuBtn.on("click", function(){
+  menuBtn.on('click', function(){
     menuBtn.toggleClass('is-open');
     mobileNav.toggleClass('is-open');
     // console.log("worked")
