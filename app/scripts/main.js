@@ -6,8 +6,6 @@ $(function() {
     menuBtn.toggleClass('is-open');
     mobileNav.toggleClass('is-open');
     // console.log("worked")
-
-
   });
 
   $(window).on('scroll', function() {
